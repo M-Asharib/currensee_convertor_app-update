@@ -1,0 +1,49 @@
+name: currensee_convertor_app
+description: "A new Flutter project."
+
+# Prevent publishing to pub.dev (remove if you want to publish)
+publish_to: 'none' 
+
+# Version details
+version: 1.0.0+1
+
+# Dart SDK version constraint
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+# Project dependencies
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  dropdown_search: ^5.0.3
+  firebase_core: ^3.1.1
+  firebase_auth: ^5.1.0
+  google_sign_in: ^6.1.5
+  firebase_database: ^11.0.2
+  cloud_firestore: ^5.0.2
+  random_string: ^2.3.1
+  fluttertoast: ^8.2.6
+  awesome_notifications: ^0.9.3+1
+  mailer: ^6.1.2
+  fl_chart: ^0.69.0
+  visibility_detector: ^0.4.0+2  
+  firebase_messaging: ^15.1.0
+
+  # iOS-style icons package
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+# Flutter-specific configuration
+flutter:
+  # Include assets
+  assets:
+    - assets/logo_sm.png
+    - assets/authimage.png
+
+  # Enable Material Design icons
+  uses-material-design: true
